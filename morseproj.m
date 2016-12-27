@@ -30,8 +30,8 @@ avgsec = 0.02 ; %time to average over
 smpl = y ; %create copy of data vector
 figure(1)
 plot(smpl)
-title('Inputed audio signal')
-saveas(figure(1), 'Inputed audio signal', 'jpg')
+title('Input audio signal')
+saveas(figure(1), 'Input audio signal', 'jpg')
 
 [smpl]= envExtract(smpl, avgsec, Fs); %call envelope extraction function
 figure(2)
